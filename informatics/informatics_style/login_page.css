@@ -1,0 +1,86 @@
+#login_form {
+    width: 450px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: white;
+    margin-top: 150px;
+    border: var(--block_border);
+
+    -webkit-box-shadow: 4px 4px 100px -30px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 4px 4px 100px -30px rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 4px 100px -30px rgba(0, 0, 0, 0.2);
+    border-radius: var(--block_border_radius);
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.login_form_header {
+     background: linear-gradient(to left, #f69ec4, #f9dd94 100%); 
+    
+    border-top-right-radius: var(--block_border_radius);
+    border-top-left-radius: var(--block_border_radius);
+
+    -webkit-box-shadow: 4px 4px 100px -30px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 4px 4px 100px -30px rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 4px 100px -30px rgba(0, 0, 0, 0.2);
+
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    color: #4b4b4b;
+}
+
+.login_form_input_block {
+    width: 85%;
+    margin-top: 30px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.login_form_input {
+    padding: 10px 15px;
+    font-size: 25px;
+    outline: none;
+    border-radius: var(--block_border_radius);
+    border: var(--block_border);
+    box-shadow: 4px 4px 100px -30px rgba(0, 0, 0, 0.2);
+}
+
+.login_form_input_desc {
+    padding-bottom: 10px;
+    padding-left: 3px;
+    font-size: 20px;
+}
+
+#login_submit {
+    margin-top: 15px;
+    background: linear-gradient(to left, #f69ec4, #f9dd94 100%);
+    border: none;
+    outline: none;
+
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    border-radius: var(--block_border_radius);
+    cursor: pointer;
+    transition: 0.05s;
+    padding: 10px 0;
+
+    -webkit-box-shadow: 4px 4px 98px 9px rgba(249, 221, 148, 0.2);
+    -moz-box-shadow: 4px 4px 98px 9px rgba(249, 221, 148, 0.2);
+    box-shadow: 4px 4px 98px 9px rgba(249, 221, 148, 0.2);
+}
+
+#login_submit:hover {
+    transform: scale(1.02);
+    box-shadow: 4px 4px 98px 9px rgba(246, 158, 196, 0.2);
+}
+
+.login_input_icon {
+    margin-right: 10px;
+}

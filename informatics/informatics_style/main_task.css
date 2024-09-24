@@ -1,0 +1,243 @@
+#main_task {
+    width: 80%;
+    background-color: white;
+    border-radius: var(--block_border_radius);
+    border: var(--block_border);
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.2s;
+}
+
+
+
+.main_task_header {
+    width: 100%;
+    border-radius: var(--block_border_radius);
+    border: var(--block_border);
+    position: relative;
+    padding: var(--block_padding);
+    color: #4b4b4b;
+    background: #e4e3e3;
+    display: flex;
+    align-items: center;
+}
+
+
+.main_task_header_text  {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#main_task_block {
+    /*width: 90%;*/
+    width: 1300px;
+    background-color: var(--bg_color);
+    border-radius: var(--block_border_radius);
+    border: var(--block_border);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    transition: 0.2s;
+    margin-bottom: 25px;
+}
+
+.main_task_block_header {
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+.main_task_block_header span {
+    font-size: 25px;
+    background: linear-gradient(to left, #f69ec4, #f9dd94 100%);
+    background-position: 0 100%;
+    background-size: 100% 3px;
+    background-repeat: repeat-x;
+}
+
+.main_task_block_cond {
+    margin: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    -webkit-box-shadow: 4px 4px 100px -30px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 4px 4px 100px -30px rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 4px 100px -30px rgba(0, 0, 0, 0.2);
+    border-radius: var(--block_border_radius);
+    border: var(--block_border);
+}
+
+.main_task_block_cond img {
+    width: 80%;
+}
+
+.main_task_block_ans {
+     margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: flex; 
+}
+
+#main_task_block_ans_input {
+    width: 70%;
+    padding: 10px 15px;
+    font-size: 25px;
+    outline: none;
+    border-radius: var(--block_border_radius);
+    border: var(--block_border);
+    box-shadow: 4px 4px 100px -30px rgba(0, 0, 0, 0.2);
+        transition: 0.2s;
+}
+
+.main_task_block_files {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+
+.main_task_block_files span{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+
+.main_task_block_files a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    transition: 0.2s;
+    width: 30%;
+    background: linear-gradient(to left, #f69ec4, #f9dd94 100%);
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    border-radius: var(--block_border_radius);
+    cursor: pointer;
+    transition: 0.05s;
+    -webkit-box-shadow: 4px 4px 98px 9px rgba(249, 221, 148, 0.2);
+    -moz-box-shadow: 4px 4px 98px 9px rgba(249, 221, 148, 0.2);
+    box-shadow: 4px 4px 98px 9px rgba(249, 221, 148, 0.2);
+}
+
+.main_task_block_files a:hover {
+    text-decoration: underline;
+    -webkit-box-shadow: 4px 4px 98px 9px rgba(246, 158, 196, 0.2);
+    -moz-box-shadow: 4px 4px 98px 9px rgba(246, 158, 196, 0.2);
+    box-shadow: 4px 4px 98px 9px rgba(246, 158, 196, 0.2);
+}
+
+
+#main_task_block_ans_send {
+    transition: 0.2s;
+    width: 30%;
+    background: linear-gradient(to left, #f69ec4, #f9dd94 100%);
+    border: none;
+    outline: none;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    border-radius: var(--block_border_radius);
+    cursor: pointer;
+    transition: 0.05s;
+    -webkit-box-shadow: 4px 4px 98px 9px rgba(249, 221, 148, 0.2);
+    -moz-box-shadow: 4px 4px 98px 9px rgba(249, 221, 148, 0.2);
+    box-shadow: 4px 4px 98px 9px rgba(249, 221, 148, 0.2);
+}
+
+
+
+#main_task_block_ans_send:hover {
+    transform: scale(1.02);
+
+    -webkit-box-shadow: 4px 4px 98px 9px rgba(246, 158, 196, 0.2);
+    -moz-box-shadow: 4px 4px 98px 9px rgba(246, 158, 196, 0.2);
+    box-shadow: 4px 4px 98px 9px rgba(246, 158, 196, 0.2);
+}
+
+
+#task_number {
+    width: 100px;
+    margin-left: 25px;
+    padding: 5px 10px;
+    font-size: 20px;
+    outline: none;
+    border-radius: var(--block_border_radius);
+    border: var(--block_border);
+    box-shadow: 4px 4px 100px -30px rgba(0, 0, 0, 0.2);
+    transition: 0.2s;
+}
+
+#task_id {
+    width: 60px;
+    margin-left: 25px;
+    padding: 5px 10px;
+    font-size: 20px;
+    outline: none;
+    border-radius: var(--block_border_radius);
+    border: var(--block_border);
+    box-shadow: 4px 4px 100px -30px rgba(0, 0, 0, 0.2);
+    transition: 0.2s;
+}
+
+#find_task {
+    margin-left: 30px;
+    padding: 5px 10px;
+    transition: 0.2s;
+    background: linear-gradient(to left, #f69ec4, #f9dd94 100%);
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    border-radius: var(--block_border_radius);
+    cursor: pointer;
+    transition: 0.05s;
+    -webkit-box-shadow: 4px 4px 98px 9px rgba(249, 221, 148, 0.2);
+    -moz-box-shadow: 4px 4px 98px 9px rgba(249, 221, 148, 0.2);
+    box-shadow: 4px 4px 98px 9px rgba(249, 221, 148, 0.2);
+}
+
+#task_refresh {
+    margin-left: 20px;
+    padding: 5px 10px;
+    transition: 0.2s;
+    background: linear-gradient(to left, #f69ec4, #f9dd94 100%);
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    border-radius: var(--block_border_radius);
+    cursor: pointer;
+    transition: 0.05s;
+    -webkit-box-shadow: 4px 4px 98px 9px rgba(249, 221, 148, 0.2);
+    -moz-box-shadow: 4px 4px 98px 9px rgba(249, 221, 148, 0.2);
+    box-shadow: 4px 4px 98px 9px rgba(249, 221, 148, 0.2);
+}
+
+#find_task:hover, #task_refresh:hover {
+    transform: scale(1.02);
+    -webkit-box-shadow: 4px 4px 98px 9px rgba(246, 158, 196, 0.2);
+    -moz-box-shadow: 4px 4px 98px 9px rgba(246, 158, 196, 0.2);
+    box-shadow: 4px 4px 98px 9px rgba(246, 158, 196, 0.2);
+}
+
+#main_task_block_ans_send:disabled {
+    /* Ваши стили для кнопки в недоступном состоянии */
+    color: #0f9a08; /* Затемненный текст */
+    cursor: not-allowed; /* Курсор "не допускается" */
+    pointer-events: none; /* Отмена всех событий, включая hover */
+}
+
+.task_error {
+    text-align: center;
+    font-weight: 800;
+    padding: 10px 20px;
+    font-size: 27px;
+}
+
+.task_error_icon {
+    margin-right: 10px;
+    color: #bf0303;
+}
